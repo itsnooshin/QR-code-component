@@ -1,0 +1,136 @@
+/* Reset CSS */
+*,
+*::before ,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.4;
+    background-color:#d5e1ef;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+/* img{
+    width: 100%;
+} */
+/* container */
+.container{
+    background-color: #ffff;
+    width: 20rem;
+    height: 32rem;
+    margin: 5rem auto;
+    padding: 1rem 0;
+    border-radius: 1.2rem;
+}
+.img-card{
+    width:90%;
+    text-align: center;
+   margin: auto;
+    border-radius: 1.2em;
+    display: block;   
+}
+.text{
+     
+    text-align: center;
+
+}
+.title-card{
+    color: #07203d;
+   line-height: 1.5;
+   width: 200px;
+    margin: auto;
+    padding: 1.3rem 0;
+    font-size: 1.4rem
+}
+.text-card{
+    color: #777e8c;
+    width: 200px;
+    margin: auto;
+     
+}
+.attribution{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* landscap */
+@media screen and (max-width:1200px){
+    .container{
+        margin: 20rem auto;
+        width: 30rem;
+        height: 48rem;
+    }
+    .title-card{
+        font-size: 2em;
+        width: 300px;
+        margin: auto;
+    }
+    .text-card{
+        font-size: 2em;
+        width: 300px;
+        margin: auto;
+    }
+    .attribution{
+        font-size: 2rem;
+    }
+}
+
+
+
+   /* tablet */
+   @media screen and (max-width:900px){
+       .container{
+           margin: 10rem auto;
+           width: 30rem;
+           height: 47rem;
+       }
+       .title-card{
+           font-size: 2em;
+           width: 350px;
+       }
+       .text-card{
+           font-size: 2em;
+           width: 350px;
+       }
+       .attribution{
+           font-size: 2rem;
+       }
+   }
+
+   /* mobile */
+   @media screen and (max-width:600px){
+    .attribution {
+        text-align: center;
+        padding: 1rem 0;
+        color: red;
+        font-size: 2rem;
+        
+    }
+    .container{
+        width: 30rem;
+        height: 50rem;
+    }
+    .title-card{
+        font-size: 2em;
+        width: 300px;
+        margin: auto;
+        font-weight:700;
+    }
+    .text-card{
+        font-size: 2em;
+        width: 300px;
+        margin: auto;
+        font-weight:400;
+    }
+    .img-card{
+        width: 90%;
+        margin-top: 10px;
+    }
+   }
