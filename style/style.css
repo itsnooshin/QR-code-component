@@ -93,11 +93,11 @@ a{
        }
        .title-card{
            font-size: 2em;
-           width: 350px;
+           width: 300px;
        }
        .text-card{
-           font-size: 2em;
-           width: 350px;
+           font-size: 1.5em;
+           width: 290px;
        }
        .attribution{
            font-size: 2rem;
@@ -133,4 +133,15 @@ a{
         width: 90%;
         margin-top: 10px;
     }
+   }
+   @media screen and (max-width:400px){
+       .container{
+           margin: 10px auto;
+           width: 360px;
+           height: 600px;
+       }
+       .text-card{
+           font-size: 1.9em;
+       }
+
    }
